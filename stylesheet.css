@@ -1,42 +1,49 @@
+h1, h2, thead, tbody{
+    text-align: center;
+}
 
-header{
-  background-image: url(/Users/meagan/Desktop/Projects/Dasmoto/resources/images/pattern.jpeg);
+thead, tbody, table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+body{
+    background-color: peachpuff;
 }
 
 h1{
-  font-family: Helvetica;
-  font-size: 100px;
-  color: khaki;
-  font-weight: bold;
-  text-align: center;
-  padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: #000;
 }
 
-h3{
-  font-family:Helvetica;
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: black;
 }
 
-p{
-  font-family: Helvetica;
+thead{
+    background-color: lightgreen;
+    color: black;
+    font-size: 16px;
 }
 
-.brushes{
-  background-color: mediumspringgreen;
+table{
+    background-color: #fff;
+    border: 2px solid darkgreen;
+    width: 750px;
+    margin: 0px auto;
 }
 
-.frames{
-  background-color: lightcoral;
+td{
+    border-top: 1px solid darkgreen;
+    border-right: 1px solid darkgreen;
 }
 
-.paint{
-  background-color: skyblue;
-}
+.code{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: lightpink;
 
-h4{
-  font-weight: bold;
-  font-family: Helvetica;
-  font-size: 20px;
 }
