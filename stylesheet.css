@@ -1,8 +1,8 @@
-h1, h2, thead, tbody{
+h1, h2, thead, p {
     text-align: center;
 }
 
-thead, tbody, table{
+thead, tbody, table, p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 13px;
 }
@@ -39,11 +39,19 @@ table{
 td{
     border-top: 1px solid darkgreen;
     border-right: 1px solid darkgreen;
+    padding: 5px;
 }
 
 .code{
     font-family: 'Times New Roman', Times, serif;
     font-size: 13px;
     background-color: lightpink;
+}
 
+.notes {
+    text-align: left;
+}
+
+.tags{
+    text-align: center;
 }
